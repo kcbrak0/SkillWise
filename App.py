@@ -15,8 +15,8 @@ import pymysql
 from Courses import ds_course,web_course,android_course,ios_course,uiux_course,resume_videos,interview_videos
 import pafy
 import plotly.express as px
-import spacy 
-from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords', force=True)
 
 stop_words = stopwords.words('english')
 
