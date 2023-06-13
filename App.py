@@ -16,7 +16,11 @@ from Courses import ds_course,web_course,android_course,ios_course,uiux_course,r
 import pafy
 import plotly.express as px
 import nltk
-nltk.download('stopwords', force=True)
+import os
+from nltk.corpus import stopwords
+
+stopwords_path = os.path.join('resources', 'stopwords')
+STOPWORDS = set(stopwords.words('english', filepath=stopwords_path))
 
 stop_words = stopwords.words('english')
 
