@@ -94,10 +94,10 @@ six==1.16.0
 smart-open==6.3.0
 smmap==5.0.0
 sortedcontainers==2.4.0
-spacy==2.3.8
-spacy-legacy==3.0.10
-spacy-loggers==1.0.4
-spacytextblob==4.0.0
+spacy
+spacy-legacy
+spacy-loggers
+spacytextblob
 srsly
 statsmodels==0.13.5
 streamlit==1.15.2
