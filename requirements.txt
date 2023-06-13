@@ -19,7 +19,6 @@ cymem==2.0.7
 decorator==5.1.1
 docx2txt==0.8
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.4.1/en_core_web_lg-3.4.1-py3-none-any.whl
-spacy>=3.0.0,<4.0.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 entrypoints==0.4
 fonttools==4.39.3
