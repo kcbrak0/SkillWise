@@ -17,7 +17,6 @@ import pafy
 import plotly.express as px
 import nltk
 nltk.download('stopwords')
-nltk.data.path.append('\Lib\stopwords')
 
 def fetch_yt_video(link):
     video = pafy.new(link)
