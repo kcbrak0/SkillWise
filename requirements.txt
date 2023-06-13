@@ -74,7 +74,6 @@ spacy==2.3.8
 spacy-legacy==3.0.10
 spacy-loggers==1.0.4
 spacytextblob==4.0.0
-srsly==1.0.6
 statsmodels==0.13.5
 streamlit==1.15.2
 streamlit-tags==1.2.8
